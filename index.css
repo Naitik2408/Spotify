@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: context-menu;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+i{
+    color: gray;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.complete_body{
+    background-color: black;
+    /* background-color: red; */
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.division_one{
+    width: 22%;
+    height: 97%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* display: none; */
+}
+.division_one_box_one{
+    height: 20%;
+    border-radius: 8px;
+    background-color: rgb(13, 13, 13);
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 450;
+}
+.home{
+    height: 50%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    color: gray;
+}
+.home:hover span{
+    color: white;
+}
+.home:hover i{
+    color: white;
+}
+
+.search{
+    height: 50%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    color: gray;
+}
+.search:hover span{
+    color: white;
+}
+.search:hover i{
+    color: white;
+}
+.division_one_box_two{
+    width: 100%;
+    height: 78.5%;
+    border-radius: 8px;
+    background-color: rgb(13, 13, 13);
+    font-size: 16px;
+    font-weight: 450;
+    font-family: 'Kanit', sans-serif;
+}
+.your_library{
+    height: 14%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 6px 5px 3px rgb(0, 0, 0);
+    /* cursor: pointer; */
+}
+.your_library:hover span{
+    color: white;
+}
+.your_library:hover .fa-solid{
+    color: white;
+}
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 3px;
+    width: 29px;
+    height: 27px;
+}
+.plus:hover{
+    background-color: rgb(29, 29, 29);
+    transition: 0.1s ease-in;
+}
+
+.create_playlist{
+    height: 48%;
+    overflow: auto;
+}
+.create_playlist_box_one{
+    height: 23vh;
+    background-color: rgb(45, 45, 45);
+    border-radius: 8px;
+    color: white;
+    padding: 20px 20px;
+    margin: 9px;
+}
+.cp{
+    background-color: white;
+    color: rgb(45, 45, 45);
+    padding: 8px 20px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.cp:hover{
+    font-size: 17px;
+}
+.create_playlist_box_two{
+    height: 23vh;
+    background-color: rgb(45, 45, 45);
+    border-radius: 8px;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px 9px;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+.english{
+    height: 37%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Cookies{
+    font-size: 12px; 
+    color: gray;
+    cursor: pointer;
+}
+.Cookies:hover{
+    text-decoration: underline;
+}
+.en{
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    padding: 5px 12px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 15px;
+    transition: 0.1s ease-in;
+}
+.en:hover{
+    font-size: 17px;
+    border-color: white;
+}
+
+.ho{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    /* .division_one{
+        width: 22%;
+        height: 97%;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } */
+    .division_one{
+        /* display: none; */
+        margin-top: 58px;
+        width: 50%;
+        z-index: 1000;
+        /* display: block; */
+        display: none;
+    }
+    .complete_body{
+        margin: 0;
+        display: block;
+        /* background-color: transparent; */
+        /* background-color: red; */
+    }
+  }

@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.psign{
+    margin: 0 10px;
+    color: rgb(179, 138, 85);
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+.psign:hover{
+    color: white;
+}
+.piano{
+    background: linear-gradient(to bottom,rgb(215, 144, 50),rgb(86, 57, 20));
+    height: 49vh;
+    display: flex;
+    padding: 20px 20px;
+}
+.profile_image{
+    width: 28%;
+    display: flex;
+    align-items: center;
+}
+.profile_image img{
+    width:235px;
+    height:240px;
+    box-shadow: 3px 3px 16px 9px rgba(0, 0, 0, 0.817);
+    border-radius: 4px;
+}
+.profile_title{
+    color: white;
+    width: 72%;
+    font-family: 'Kanit', sans-serif;
+}
+.subtitle2{
+    color: rgb(251, 235, 214);
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.main_title{
+    height: 120px;
+    font-size: 79px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    cursor: pointer;
+    /* overflow: hidden; */
+    /* background-color: red; */
+}
+.subtitle3{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.written_spotify{
+    margin-left: 5px;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+.written_spotify:hover{
+    text-decoration: underline;
+}
+.division_two_box_three{
+    background: linear-gradient(to bottom, rgba(86, 57, 20, 0.632) 50px,transparent 300px);
+}
+.one{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.one i{
+    font-size: 40px;
+    margin-left: 30px;
+    color: white;
+}
+.greenPlay{
+    color: rgb(48, 169, 32); 
+    font-size: 64px; margin-left: 0; 
+    background-color: black; 
+    border-radius: 50%;
+}
+.sticky_navbar{
+    background-color: rgba(0, 0, 0, 0.902);
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding: 5px 40px;
+    border-bottom: solid 0.1px rgb(251, 235, 214);
+    position: sticky;
+    top: 0px;
+}
+.sticky_title{
+     color: rgb(251, 235, 214);
+     font-family: 'Open Sans', sans-serif;
+     font-size: 13px;
+     letter-spacing: 1px;
+     font-weight: 100;
+}
+
+.multi_songs_box{
+    margin:20px;
+}
+.multi_songs{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+.multi_songs:hover{
+    background-color: rgb(37, 37, 37);
+}
+.song_name{
+    color: rgb(251, 235, 214);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14.5px;
+    letter-spacing: 1px;
+}
+.down_title{
+    display: flex;
+    align-items: center;
+}
+.so_no{
+    width: 29px;
+}
+/* .......................................  */
+.division_three{
+    display: flex;
+    /* height: 18vh; */
+    background-color: black;
+    /* background-color: aqua; */
+    padding: 16px 0;
+}
+.division_three_box_one{
+    /* background-color: red; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.division_three_box_two{
+    /* background-color: yellow; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.division_three_box_two input{
+    /* appearance: none; */
+    width: 400px;
+    height: 3px;
+    border: none;
+    background-color: rgb(108, 108, 108);
+    outline: none;
+    cursor: pointer;
+    /* display: none;
+    transition: display 0.2s ease-in-out; */
+}
+#progressBar::-webkit-progressBar-thumb{
+    color: white;
+    width: 50px;
+    background-color: white;
+}
+.division_three_box_two div{
+    margin-bottom: 15px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .division_three_box_two div i{
+    color: white;
+    font-size: 32px;
+} */
+.division_three_box_three{
+    /* background-color: blue; */
+    width: 30%;
+}

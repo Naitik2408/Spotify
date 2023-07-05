@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .bdy{
+        display: flex;
+        /* justify-content: ; */
+    }
+    .one{
+        width: 50%;
+        height: 100vh;
+        background-color: red;
+        transition: 0.3s ease-in;
+    }
+    .two{
+        width: 50%;
+        height: 100vh;
+        background-color: blue;
+        transition: 0.3s ease-in;
+    }
+
+</style>
+<body>
+    <button>click here</button>
+    <div class="bdy">
+        <div class="one"></div>
+        <div class="two"></div>
+    </div>
+</body>
+    <script>
+        let a=document.getElementsByTagName('button');
+        let b=document.getElementsByClassName('one');
+        let c=document.getElementsByClassName('two');
+        // console.log(b)
+        a[0].addEventListener('click',()=>{
+            c[0].style.display='none';
+            b[0].style.width='100%'
+        })
+    </script>
+    
+</html>
