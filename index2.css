@@ -12,8 +12,8 @@
 }
 
 .navbar {
-    background-color: rgb(13, 13, 13, 0.94);
-    /* background-color: red; */
+    /* background-color: rgb(13, 13, 13, 0.94); */
+    background-color: red;
     position: fixed;
     width: 71.3%;
     /* width: 100%; */
