@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.nav_arjit{
+    background-color: rgba(109, 72, 22, 0.94);
+}
 .psign{
     margin: 0 10px;
     color: rgb(179, 138, 85);
@@ -27,6 +30,12 @@
     height:240px;
     box-shadow: 3px 3px 16px 9px rgba(0, 0, 0, 0.817);
     border-radius: 4px;
+}
+.ti{
+    font-size: 13px; 
+    margin-top: 15px; 
+    font-weight: 300; 
+    margin-top: 55px;
 }
 .profile_title{
     color: white;
@@ -115,6 +124,9 @@
 .multi_songs:hover{
     background-color: rgb(37, 37, 37);
 }
+.st1{
+    display: block;
+}
 .song_name{
     color: rgb(251, 235, 214);
     font-family: 'Open Sans', sans-serif;
@@ -182,3 +194,199 @@
     /* background-color: blue; */
     width: 30%;
 }
+@media (max-width: 768px) {
+    #cp1{
+        width: 360px;
+        /* width: 94vw; */
+        /* background-color: rgb(17, 255, 0); */
+        height: 84.6vh;
+        /* display: none; */
+    }
+    .division_two {
+        /* background-color: yellow; */
+        width: 360px;
+        height: 84vh;
+        /* margin-left: 30px; */
+        /* .........................  */
+        /* display: none; */
+        position: fixed;
+        top: 0;
+
+    }
+    .nav_arjit{
+        width: 320px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: flex-end;
+    }
+    .sign{
+        font-size: 13px;
+    }
+    /* .login{
+        font-size: 13px;
+        margin: 0;
+        padding: 8px 16px;
+    } */
+    #menu_bar{
+        display: block;
+    }
+    .division_two_box_two {
+        padding-top: 8.5vh;
+        /* padding: 0; */
+        width: 95%;
+        height: 75vh;
+        /* margin: 0 10px; */
+
+        /* display: none; */
+        /* background: blue; */
+    }
+    .focus_show{
+        padding: 0 15px;
+    }
+    .focus{
+        font-size: 20px;
+    }
+    .show{
+        font-size: 13px;
+    }
+    .image1 img {
+        width: 110px;
+        height: 140px;
+    }
+
+    .title {
+        font-size: 12px;
+        width: 100px;
+    }
+    .subtitle {
+        width: 100px;
+        font-size: 9px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 100;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .focus_image{
+        width: 95vw;
+        margin-top: 5px;
+        /* margin-bottom: 0; */
+        gap: 10px;
+    }
+    .image1{
+        margin: 0 10px;
+    }
+    .play_button{
+        width: 110px;
+        height: 45px;
+        bottom: 90px;
+    }
+    .play_button img{
+        width: 40px;
+        height: 40px;
+    }
+    .ti{
+        display: none;
+    }
+    .subtitle2{
+        display: none;
+    }
+    .subtitle3{
+        display: none;
+    }
+    .piano{
+        /* width: ; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .profile_image{
+        width: 320px;
+    }
+    .main_title{
+        height: 120px;
+        font-size: 79px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        cursor: pointer;
+        /* overflow: hidden; */
+        /* background-color: red; */
+    }
+    .main_title{
+        margin-top: 20px;
+        width: 220px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .st1{
+        display: none;
+    }
+    .multi_songs_box{
+        margin: 10px;
+        /* height: 500px; */
+    }
+    .multi_songs{
+        width: 310px;
+        padding: 4px 7px;
+        /* height: 79px; */
+        
+    }
+    .song_name{
+        width: 140px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .division_three_box_one{
+        display: none;
+    }
+    .division_three{
+        width: 360px;
+        /* background-color: red; */
+        height: 80px;
+    }
+    .division_three_box_three{
+        display: none;
+    }
+    .division_three_box_two{
+        width: 350px;
+        margin-left: 6px;
+        /* background-color: yellow; */
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .division_three_box_two input{
+        /* appearance: none; */
+        /* margin-left: 200px; */
+        /* display: none; */
+        width: 250px;
+        height: 3px;
+    }
+    .division_three_box_two div{
+        margin-bottom: 15px;
+        /* display: block; */
+        width: 100px;
+        
+    }
+    .division_three_box_two div i{
+        font-size: 18px;
+    }
+    .profile_image img{
+        width: 298px;
+        height: 290px;
+
+    }
+} 
